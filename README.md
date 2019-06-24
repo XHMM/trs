@@ -1,6 +1,5 @@
-tsr
-===
-tsr(typescript-react-starter), it's a simple cli tool to generate typescript react environment using [this repo](https://github.com/XHMM/typescript-react-starter). 
+## introduction
+**tsr (typescript-react-starter)**, a simple cli tool to generate typescript react environment using [this repo](https://github.com/XHMM/typescript-react-starter). 
 
 ## usage
 ```sh-session

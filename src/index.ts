@@ -1,6 +1,6 @@
 import {Command, flags} from '@oclif/command'
 import { promisify } from 'util';
-import { existsSync, mkdir, createWriteStream, createReadStream, rmdir, unlink, readdir, stat, rename } from 'fs';
+import { existsSync, mkdir, createWriteStream, createReadStream, rmdir, unlink, readdir, rename } from 'fs';
 import nodeFetch from 'node-fetch';
 import * as path from 'path';
 import * as unzipper from 'unzipper';
@@ -10,7 +10,6 @@ const Listr = require('listr');
 const mkdirP = promisify(mkdir);
 const rmdirP = promisify(rmdir);
 const readdirP = promisify(readdir);
-const statP = promisify(stat);
 const unlinkP = promisify(unlink);
 const renameP = promisify(rename);
 
@@ -86,8 +85,8 @@ class Trs extends Command {
       }
     ])
     try {
-      //await mkdirP(dirName);
-      //await tasks.run();
+      await mkdirP(dirName);
+      await tasks.run();
       this.log(`\n  Now you can run: `)
       this.log(`    cd ${dirName}`);
       this.log(`    npm install`);
