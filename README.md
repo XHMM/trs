@@ -6,3 +6,7 @@
 $ npm install -g @xhmm/trs
 $ trs --name="hello-react"
 ```
+if you are using proxy, you can set proxy env:
+```sh-session
+set HTTP_PROXY="http://localhost:1080"
+```

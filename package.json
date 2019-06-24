@@ -1,6 +1,6 @@
 {
   "name": "@xhmm/trs",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": "xhmm @XHMM",
   "bin": {
     "trs": "./bin/run"
