@@ -7,10 +7,10 @@
   },
   "bugs": "https://github.com/XHMM/trs/issues",
   "dependencies": {
-    "@oclif/command": "^1.5.15",
-    "@oclif/config": "^1.13.0",
+    "@oclif/command": "^1.5.17",
+    "@oclif/config": "^1.13.2",
     "@oclif/plugin-help": "^2.2.0",
-    "https-proxy-agent": "^2.2.1",
+    "https-proxy-agent": "^2.2.2",
     "listr": "^0.14.3",
     "node-fetch": "^2.6.0",
     "tslib": "^1.10.0",
@@ -18,11 +18,11 @@
   },
   "devDependencies": {
     "@oclif/dev-cli": "^1.22.0",
-    "@types/node": "^10.14.10",
+    "@types/node": "^12.6.6",
     "@types/node-fetch": "^2.3.7",
     "rimraf": "^2.6.3",
     "ts-node": "^8.3.0",
-    "typescript": "^3.5.2"
+    "typescript": "^3.5.3"
   },
   "engines": {
     "node": ">=8.0.0"
