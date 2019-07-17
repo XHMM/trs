@@ -133,6 +133,7 @@ class Trs extends Command {
     this.log(`    - cd ${dirName}`);
     this.log(`    - npm install`);
     this.log(`    - npm run dev`);
+    this.log('\n');
   }
 }
 
